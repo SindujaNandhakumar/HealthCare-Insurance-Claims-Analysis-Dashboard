@@ -1,28 +1,34 @@
 # HealthCare-Insurance-Claims-Analysis-Dashboard
 
-📘 Project Overview
+## 📘 Project Overview
 
 This project focuses on analyzing healthcare claims data from patients enrolled in ABC Healthcare’s Accountable Care Organization (ACO) using a High Deductible Health Plan (HDHP). The purpose is to evaluate how healthcare costs are distributed between insurance providers and patients, and how these costs vary by state, provider specialty, product line (Commercial vs Medicare), and over time.
 
 A Tableau dashboard has been developed to visualize and summarize key patterns, trends, and outliers in the data.
 
-📂 Dataset Description
+---
 
 The dashboard is built using a claims dataset with the following fields:
-Field Name	Description
-CLAIM_ID	Unique ID for each insurance claim
-PATIENT_ID	De-identified patient identifier
-PATIENT_STATE	U.S. state of patient residence
-PRODUCT_LINE	Type of insurance plan (Commercial / Medicare)
-DATE_OF_SERVICE	Date when medical service was provided
-CPT_CODE	Current Procedural Terminology code for the service
-CPT_DESCRIPTION	Description of the medical service provided
-PROVIDER_NPI	National Provider Identifier for each provider
-PROVIDER_SPECIALTY	Provider’s area of medical specialization
-TOTAL_PAID_BY_INSURANCE	Amount paid by the insurance provider for the claim
-PATIENT_DEDUCTIBLE	Patient’s out-of-pocket deductible for the claim
 
-📊 Dashboard Visualizations & Key Findings
+## 📂 Dataset Description
+
+| Field Name                | Description                                         |
+| ------------------------- | --------------------------------------------------- |
+| `CLAIM_ID`                | Unique ID for each insurance claim                  |
+| `PATIENT_ID`              | De-identified patient identifier                    |
+| `PATIENT_STATE`           | U.S. state of patient residence                     |
+| `PRODUCT_LINE`            | Type of insurance plan (Commercial / Medicare)      |
+| `DATE_OF_SERVICE`         | Date when medical service was provided              |
+| `CPT_CODE`                | Current Procedural Terminology code for the service |
+| `CPT_DESCRIPTION`         | Description of the medical service provided         |
+| `PROVIDER_NPI`            | National Provider Identifier for each provider      |
+| `PROVIDER_SPECIALTY`      | Provider’s area of medical specialization           |
+| `TOTAL_PAID_BY_INSURANCE` | Amount paid by the insurance provider for the claim |
+| `PATIENT_DEDUCTIBLE`      | Patient’s out-of-pocket deductible for the claim    |
+
+---
+
+## 📊 Dashboard Visualizations & Key Findings
 1. Provider Specialty Payment Analysis (Horizontal Bar Chart)
 
     Goal: Identify top provider specialties by insurance spending.
